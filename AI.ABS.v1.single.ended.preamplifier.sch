@@ -1,0 +1,1540 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Audio Injector Ultra 2  - sound card"
+Date "8 jun 2015"
+Rev ""
+Comp "Flatmax Pty Ltd"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 4400 2150 0    60   ~ 0
+V12
+Text Label 4400 2350 0    60   ~ 0
+V-12
+Text GLabel 4400 2250 2    60   Input ~ 0
+SGND
+Text Label 4400 1200 2    60   ~ 0
+AMUTEC
+Text Label 4400 1700 2    60   ~ 0
+BMUTEC
+Text GLabel 1100 1450 0    60   Input ~ 0
+SGND
+Text GLabel 1100 1750 0    60   Input ~ 0
+SGND
+Text Label 6550 3700 0    50   ~ 0
+PGND
+Text Label 2000 1500 2    60   ~ 0
+AGND_BO
+Text Label 8700 7250 0    60   ~ 0
+Vcc
+Text Label 8700 6650 0    60   ~ 0
+Vee
+Text Label 9300 6500 0    60   ~ 0
+AGND_BO
+Wire Wire Line
+	8800 5800 8900 5800
+Wire Wire Line
+	8900 5800 8900 5500
+Wire Wire Line
+	8900 5500 9100 5500
+Wire Wire Line
+	9100 5500 9100 5200
+Wire Wire Line
+	9400 5200 9400 5500
+Wire Wire Line
+	9400 5500 9500 5500
+Wire Wire Line
+	9500 5500 9500 5900
+Wire Wire Line
+	9500 5900 9650 5900
+Wire Wire Line
+	9300 6300 9300 6500
+Wire Wire Line
+	9000 6300 9000 6500
+Wire Wire Line
+	8900 6000 8900 6300
+Wire Wire Line
+	8900 6300 9000 6300
+Wire Wire Line
+	8800 6000 8900 6000
+Wire Wire Line
+	8450 6650 8700 6650
+Wire Wire Line
+	8450 7250 8700 7250
+Text Label 8450 6950 2    60   ~ 0
+AGND_BO
+Text Label 9800 7950 0    60   ~ 0
+OUTLp1
+Text Label 9450 8550 0    60   ~ 0
+AGND_BO
+Wire Wire Line
+	8950 7850 9050 7850
+Wire Wire Line
+	9050 7850 9050 7550
+Wire Wire Line
+	9050 7550 9250 7550
+Wire Wire Line
+	9250 7550 9250 7250
+Wire Wire Line
+	9550 7250 9550 7550
+Wire Wire Line
+	9550 7550 9650 7550
+Wire Wire Line
+	9650 7550 9650 7950
+Wire Wire Line
+	9650 7950 9800 7950
+Wire Wire Line
+	9450 8350 9450 8550
+Wire Wire Line
+	9150 8350 9150 8550
+Wire Wire Line
+	9050 8050 9050 8350
+Wire Wire Line
+	9050 8350 9150 8350
+Wire Wire Line
+	8950 8050 9050 8050
+Text Label 8500 5800 2    60   ~ 0
+OUTRo+
+Text Label 8500 6000 2    60   ~ 0
+OUTRo-
+Text Label 8650 7850 2    60   ~ 0
+OUTLo+
+Text Label 8650 8050 2    60   ~ 0
+OUTLo-
+Text Label 8700 3200 1    60   ~ 0
+OUTLe+
+Text Label 1100 1550 2    60   ~ 0
+LinB-
+Text Label 1100 1650 2    60   ~ 0
+LinB+
+Text Label 1100 1250 2    60   ~ 0
+RinB-
+Text Label 1100 1350 2    60   ~ 0
+RinB+
+Text Label 4400 1400 2    60   ~ 0
+OUTLo+
+Text Label 4400 1300 2    60   ~ 0
+OUTLo-
+Text Label 4400 1600 2    60   ~ 0
+OUTRo-
+Text Label 4400 1500 2    60   ~ 0
+OUTRo+
+Text GLabel 2100 1500 2    60   Input ~ 0
+SGND
+Text Label 9650 5900 0    60   ~ 0
+OUTRp1
+Wire Wire Line
+	2100 1500 2000 1500
+Connection ~ 9000 6300
+Connection ~ 9100 5500
+Connection ~ 9400 5500
+Text GLabel 7900 3900 3    50   Input ~ 0
+V5
+Wire Wire Line
+	8200 3300 8050 3300
+Wire Wire Line
+	7800 3300 7800 3450
+Wire Wire Line
+	7800 3750 7800 3900
+Wire Wire Line
+	8600 3950 8600 3900
+Wire Wire Line
+	8300 3950 8300 3300
+Wire Wire Line
+	8300 3300 8500 3300
+Wire Wire Line
+	9000 3900 9000 3950
+Wire Wire Line
+	8700 3950 8700 3700
+Wire Wire Line
+	8700 3700 8800 3700
+Wire Wire Line
+	8800 3700 8800 3300
+Wire Wire Line
+	8800 3300 8900 3300
+Text Label 8600 3950 3    60   ~ 0
+OUTL+
+Text Label 9950 3250 2    60   ~ 0
+OUTLe+
+Text Label 9950 3600 2    60   ~ 0
+OUTRe+
+Text Label 8800 2550 2    60   ~ 0
+AGND_BO
+Wire Wire Line
+	8800 2550 8900 2550
+Wire Wire Line
+	8900 2850 8900 3200
+Wire Wire Line
+	8900 3200 9100 3200
+Wire Wire Line
+	9100 3200 9100 3300
+Wire Wire Line
+	8700 3300 8700 3200
+Wire Wire Line
+	8700 3200 8800 3200
+Wire Wire Line
+	8800 3200 8800 2850
+Text Label 7650 3150 0    50   ~ 0
+PGND
+Text GLabel 7000 2950 0    50   Input ~ 0
+MUTE
+Text Label 2150 1750 0    60   ~ 0
+AGND_BO
+Text Label 2050 1750 2    60   ~ 0
+SGND_BO
+Wire Wire Line
+	2050 1750 2150 1750
+Text Label 7650 2750 0    50   ~ 0
+Cl
+Text Label 7300 2950 0    50   ~ 0
+Bl
+Wire Wire Line
+	7300 2950 7350 2950
+Wire Wire Line
+	7800 3900 8200 3900
+Wire Wire Line
+	8050 2750 8050 3300
+Connection ~ 8050 3300
+Wire Wire Line
+	8050 3300 7800 3300
+Text Label 3700 2850 0    60   ~ 0
+SGND_BO
+Text Label 3700 2550 0    60   ~ 0
+V12
+Text Label 3650 4000 0    60   ~ 0
+SGND_BO
+Text Label 3650 3700 0    60   ~ 0
+V-12
+Text Notes 4300 3900 0    50   ~ 0
+R1=R2(Vo/Vref-1)\nVref=-1.184
+Text Notes 4350 2850 0    50   ~ 0
+R1=R2(Vo/Vfb-1)\nVfb=1.185
+Text Notes 4350 3250 0    50   ~ 0
+Vo=(R1/R2+1)Vfb
+Text Label 8050 3200 0    50   ~ 0
+SolL-
+Text Label 4900 7450 2    60   ~ 0
+AGND_BO
+Wire Wire Line
+	4900 7750 5150 7750
+Wire Wire Line
+	4900 7150 5150 7150
+Text Label 5150 7150 0    60   ~ 0
+Vee
+Text Label 5150 7750 0    60   ~ 0
+Vcc
+Text Label 7250 5900 0    60   ~ 0
+RinB-
+Text Label 7250 7450 0    60   ~ 0
+RinB+
+Wire Wire Line
+	7250 7450 7250 6900
+Text Label 5900 5800 2    60   ~ 0
+RIN+
+Text Label 6200 7050 2    60   ~ 0
+Rif++
+Text Label 6300 5500 2    60   ~ 0
+Rif-+
+Wire Wire Line
+	6100 7550 6200 7550
+Wire Wire Line
+	6800 7050 6800 7450
+Wire Wire Line
+	6700 7050 6800 7050
+Wire Wire Line
+	6700 6750 6700 7050
+Wire Wire Line
+	6400 7050 6400 6750
+Wire Wire Line
+	6200 7050 6400 7050
+Wire Wire Line
+	6200 7350 6200 7050
+Wire Wire Line
+	6100 7350 6200 7350
+Connection ~ 6700 7050
+Connection ~ 6400 7050
+Connection ~ 6200 7350
+Text Label 6300 6000 2    60   ~ 0
+SGND_BO
+Wire Wire Line
+	6800 5200 6800 5500
+Wire Wire Line
+	6500 5500 6500 5200
+Wire Wire Line
+	6300 5500 6500 5500
+Wire Wire Line
+	6300 5800 6300 5500
+Wire Wire Line
+	6200 5800 6300 5800
+Connection ~ 6800 5500
+Connection ~ 6500 5500
+Connection ~ 6300 5800
+Text Label 3400 6200 0    60   ~ 0
+LinB-
+Text Label 3400 7750 0    60   ~ 0
+LinB+
+Wire Wire Line
+	3400 6200 3400 6900
+Text Label 2350 7350 2    60   ~ 0
+Lif++
+Text Label 2450 5800 2    60   ~ 0
+Lif-+
+Text Label 4250 5800 2    60   ~ 0
+RIN+
+Text Label 2350 7850 2    60   ~ 0
+SGND_BO
+Wire Wire Line
+	2850 7050 2850 7350
+Wire Wire Line
+	2550 7350 2550 7050
+Wire Wire Line
+	2350 7350 2550 7350
+Wire Wire Line
+	2350 7650 2350 7350
+Wire Wire Line
+	2250 7650 2350 7650
+Connection ~ 2550 7350
+Connection ~ 2350 7650
+Text Label 1100 7200 2    60   ~ 0
+AGND_BO
+Wire Wire Line
+	1100 7500 1350 7500
+Wire Wire Line
+	1100 6900 1350 6900
+Text Label 1350 6900 0    60   ~ 0
+Vee
+Text Label 1350 7500 0    60   ~ 0
+Vcc
+Text Label 4250 5450 2    60   ~ 0
+LIN+
+Wire Wire Line
+	2350 6300 2450 6300
+Wire Wire Line
+	2950 5500 2950 5800
+Wire Wire Line
+	2650 5800 2650 5500
+Wire Wire Line
+	2450 5800 2650 5800
+Wire Wire Line
+	2450 6100 2450 5800
+Connection ~ 2950 5800
+Connection ~ 2650 5800
+Text Notes 1000 4750 0    50   ~ 0
+EMitter follower cap multiplier. See Opamp.supply.sketch.pdf from Dean.  See https://www.electronics-notes.com/articles/analogue_circuits/transistor/capacitance-multiplier-circuit.php
+Text Label 1700 2350 2    60   ~ 0
+V12
+Wire Wire Line
+	2250 2650 2250 2700
+Wire Wire Line
+	2250 2700 2400 2700
+Wire Wire Line
+	2700 2700 2750 2700
+Wire Wire Line
+	1750 2700 2000 2700
+Wire Wire Line
+	2000 2700 2250 2700
+Connection ~ 2000 2700
+Connection ~ 2250 2700
+Text Label 1750 3000 2    60   ~ 0
+SGND_BO
+Wire Wire Line
+	1750 3000 2000 3000
+Wire Wire Line
+	3050 2500 3050 2350
+Wire Wire Line
+	3050 2350 2250 2350
+Connection ~ 2250 2350
+Text Label 3050 2900 0    60   ~ 0
+Vcc
+Wire Wire Line
+	2250 3600 2250 3550
+Wire Wire Line
+	2250 3550 2400 3550
+Wire Wire Line
+	2700 3550 2750 3550
+Connection ~ 2250 3550
+Wire Wire Line
+	1750 3250 2000 3250
+Wire Wire Line
+	3050 3750 3050 3900
+Wire Wire Line
+	3050 3900 2250 3900
+Connection ~ 2250 3900
+Text Label 3050 3350 0    60   ~ 0
+Vee
+Wire Wire Line
+	2000 3250 2000 3000
+Connection ~ 2000 3000
+Text Label 1700 3900 2    60   ~ 0
+V-12
+Wire Wire Line
+	1750 3550 2000 3550
+Connection ~ 2000 3250
+Connection ~ 2000 3550
+Wire Wire Line
+	2000 3550 2250 3550
+Wire Wire Line
+	1700 2350 2250 2350
+Wire Wire Line
+	1700 3900 2250 3900
+NoConn ~ -1250 3650
+Text GLabel 6550 3600 2    50   Input ~ 0
+MUTE
+Text GLabel 6550 3800 2    50   Input ~ 0
+V5
+Text Label 4400 2050 0    60   ~ 0
+Vph
+Wire Wire Line
+	3100 6200 3050 6200
+Wire Wire Line
+	2950 5800 3050 5800
+Wire Wire Line
+	3300 7750 3400 7750
+Wire Wire Line
+	3000 7750 2950 7750
+Wire Wire Line
+	6800 5500 6900 5500
+Wire Wire Line
+	7250 5900 7250 6600
+Wire Wire Line
+	6950 5900 6900 5900
+Wire Wire Line
+	6900 5900 6900 5500
+Connection ~ 6900 5900
+Wire Wire Line
+	6950 7450 6800 7450
+Connection ~ 6800 7450
+Wire Wire Line
+	3400 7200 3400 7750
+Wire Wire Line
+	2950 7750 2950 7350
+Wire Wire Line
+	2950 7350 2850 7350
+Connection ~ 2950 7750
+Connection ~ 2850 7350
+Wire Wire Line
+	3050 6200 3050 5800
+Connection ~ 3050 6200
+Text Label 3050 5800 0    60   ~ 0
+LinB_N
+Text Label 2950 7350 0    60   ~ 0
+LinB_P
+Text Label 6900 5500 0    60   ~ 0
+RinB_N
+Text Label 6800 7050 0    60   ~ 0
+RinB_P
+Connection ~ 2450 6100
+Wire Wire Line
+	2350 6100 2450 6100
+Text Label 2050 6100 2    60   ~ 0
+LIN+
+$Comp
+L PPI-ISO-rescue:Conn_01x06-Connector_Generic L_G_R_OUT_1
+U 1 1 5AA3B498
+P 4600 1500
+F 0 "L_G_R_OUT_1" H 4600 1700 50  0000 C CNN
+F 1 "OUT" V 4700 1500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4600 1500 50  0001 C CNN
+F 3 "" H 4600 1500 50  0000 C CNN
+	1    4600 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Conn_01x04-Connector_Generic V12s_1
+U 1 1 5B61ACD3
+P 4200 2250
+F 0 "V12s_1" H 4200 2450 50  0000 C CNN
+F 1 "OUT" V 4300 2250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4200 2250 50  0001 C CNN
+F 3 "" H 4200 2250 50  0000 C CNN
+	1    4200 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Conn_01x06-Connector_Generic L_G_R_OUT_2
+U 1 1 5D89AC6D
+P 1300 1450
+F 0 "L_G_R_OUT_2" H 1300 1650 50  0000 C CNN
+F 1 "OUT" V 1400 1450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1300 1450 50  0001 C CNN
+F 3 "" H 1300 1450 50  0000 C CNN
+	1    1300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U3
+U 3 1 5AFC0BC4
+P 8800 6950
+F 0 "U3" H 8800 7150 50  0000 L CNN
+F 1 "NJM4580E" H 8800 6750 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8800 6950 50  0001 C CNN
+F 3 "" H 8800 6950 50  0001 C CNN
+	3    8800 6950
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R17
+U 1 1 5AFC15F8
+P 8650 5800
+F 0 "R17" H 8720 5846 50  0000 L CNN
+F 1 "7k5 0.1%" H 8720 5754 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 5800 50  0001 C CNN
+F 3 "" H 8650 5800 50  0000 C CNN
+	1    8650 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R22
+U 1 1 5AFC1A66
+P 9250 5500
+F 0 "R22" H 9320 5546 50  0000 L CNN
+F 1 "7k5 0.1%" H 9320 5454 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 5500 50  0001 C CNN
+F 3 "" H 9250 5500 50  0000 C CNN
+	1    9250 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C22
+U 1 1 5AFC1F3D
+P 9250 5200
+F 0 "C22" H 9275 5300 50  0000 L CNN
+F 1 "ECHU1H221_220pF" H 8800 4800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9288 5050 50  0001 C CNN
+F 3 "" H 9250 5200 50  0001 C CNN
+	1    9250 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R18
+U 1 1 5AFC260B
+P 8650 6000
+F 0 "R18" H 8720 6046 50  0000 L CNN
+F 1 "7k5 0.1%" H 8720 5954 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 6000 50  0001 C CNN
+F 3 "" H 8650 6000 50  0000 C CNN
+	1    8650 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R20
+U 1 1 5AFC271B
+P 9150 6300
+F 0 "R20" H 9220 6346 50  0000 L CNN
+F 1 "7k5 0.1%" H 9220 6254 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9080 6300 50  0001 C CNN
+F 3 "" H 9150 6300 50  0000 C CNN
+	1    9150 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C20
+U 1 1 5AFC2830
+P 9150 6500
+F 0 "C20" H 9175 6600 50  0000 L CNN
+F 1 "ECHU1H221_220pF" H 9175 6400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9188 6350 50  0001 C CNN
+F 3 "" H 9150 6500 50  0001 C CNN
+	1    9150 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C23
+U 1 1 5AFC69D5
+P 8450 6800
+F 0 "C23" H 8475 6900 50  0000 L CNN
+F 1 "100n" H 8475 6700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 6650 30  0001 C CNN
+F 3 "" H 8450 6800 60  0000 C CNN
+	1    8450 6800
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C24
+U 1 1 5AFC6D79
+P 8450 7100
+F 0 "C24" H 8475 7200 50  0000 L CNN
+F 1 "100n" H 8475 7000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 6950 30  0001 C CNN
+F 3 "" H 8450 7100 60  0000 C CNN
+	1    8450 7100
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R31
+U 1 1 5AFD1D9D
+P 8800 7850
+F 0 "R31" H 8870 7896 50  0000 L CNN
+F 1 "7k5 0.1%" H 8870 7804 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8730 7850 50  0001 C CNN
+F 3 "" H 8800 7850 50  0000 C CNN
+	1    8800 7850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R36
+U 1 1 5AFD1DA3
+P 9400 7550
+F 0 "R36" H 9470 7596 50  0000 L CNN
+F 1 "7k5 0.1%" H 9470 7504 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 7550 50  0001 C CNN
+F 3 "" H 9400 7550 50  0000 C CNN
+	1    9400 7550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C30
+U 1 1 5AFD1DA9
+P 9400 7250
+F 0 "C30" H 9425 7350 50  0000 L CNN
+F 1 "ECHU1H221_220pF" H 9425 7150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9438 7100 50  0001 C CNN
+F 3 "" H 9400 7250 50  0001 C CNN
+	1    9400 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R32
+U 1 1 5AFD1DAF
+P 8800 8050
+F 0 "R32" H 8870 8096 50  0000 L CNN
+F 1 "7k5 0.1%" H 8870 8004 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8730 8050 50  0001 C CNN
+F 3 "" H 8800 8050 50  0000 C CNN
+	1    8800 8050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R34
+U 1 1 5AFD1DB5
+P 9300 8350
+F 0 "R34" H 9370 8396 50  0000 L CNN
+F 1 "7k5 0.1%" H 9370 8304 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9230 8350 50  0001 C CNN
+F 3 "" H 9300 8350 50  0000 C CNN
+	1    9300 8350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C28
+U 1 1 5AFD1DBB
+P 9300 8550
+F 0 "C28" H 9325 8650 50  0000 L CNN
+F 1 "ECHU1H221_220pF" H 9325 8450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9338 8400 50  0001 C CNN
+F 3 "" H 9300 8550 50  0001 C CNN
+	1    9300 8550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:JW2-Relay RL2
+U 1 1 5DAFC6A6
+P 8600 3600
+F 0 "RL2" H 9230 3646 50  0000 L CNN
+F 1 "HFD4" H 9230 3555 50  0000 L CNN
+F 2 "HDF4:HDF4" H 9250 3550 50  0001 L CNN
+F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok" H 8400 3600 50  0001 C CNN
+	1    8600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:D-Device D2
+U 1 1 5DB0745F
+P 7800 3600
+F 0 "D2" V 7754 3679 50  0000 L CNN
+F 1 "1N5819" V 7845 3679 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 7800 3600 50  0001 C CNN
+F 3 "~" H 7800 3600 50  0001 C CNN
+	1    7800 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R44
+U 1 1 5DB15601
+P 8800 2700
+F 0 "R44" H 8870 2746 50  0000 L CNN
+F 1 "10k" H 8870 2654 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8730 2700 50  0001 C CNN
+F 3 "" H 8800 2700 50  0000 C CNN
+	1    8800 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R46
+U 1 1 5DB157FC
+P 8900 2700
+F 0 "R46" H 8970 2746 50  0000 L CNN
+F 1 "10k" H 8970 2654 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8830 2700 50  0001 C CNN
+F 3 "" H 8900 2700 50  0000 C CNN
+	1    8900 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R43
+U 1 1 5DB5EB79
+P 8450 3950
+F 0 "R43" H 8520 3996 50  0000 L CNN
+F 1 "10k" H 8520 3904 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 3950 50  0001 C CNN
+F 3 "" H 8450 3950 50  0000 C CNN
+	1    8450 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R45
+U 1 1 5DB5EC69
+P 8850 3950
+F 0 "R45" H 8920 3996 50  0000 L CNN
+F 1 "10k" H 8920 3904 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8780 3950 50  0001 C CNN
+F 3 "" H 8850 3950 50  0000 C CNN
+	1    8850 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:MMBT3904-Transistor_BJT Q2
+U 1 1 5DBBC5D0
+P 7550 2950
+F 0 "Q2" H 7741 2996 50  0000 L CNN
+F 1 "MMBT4401" H 7741 2905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7750 2875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7550 2950 50  0001 L CNN
+	1    7550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R49
+U 1 1 5DBBC5DF
+P 7150 2950
+F 0 "R49" H 7220 2996 50  0000 L CNN
+F 1 "1k" H 7220 2904 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 2950 50  0001 C CNN
+F 3 "" H 7150 2950 50  0000 C CNN
+	1    7150 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C34
+U 1 1 5E203D35
+P 3700 2700
+F 0 "C34" H 3725 2800 50  0000 L CNN
+F 1 "10u" H 3550 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3738 2550 50  0001 C CNN
+F 3 "" H 3700 2700 50  0001 C CNN
+	1    3700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C14
+U 1 1 5E2ABBEA
+P 3650 3850
+F 0 "C14" H 3675 3950 50  0000 L CNN
+F 1 "10u" H 3500 3850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3688 3700 50  0001 C CNN
+F 3 "" H 3650 3850 50  0001 C CNN
+	1    3650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C4
+U 1 1 5DB3933D
+P 4900 7600
+F 0 "C4" H 4925 7700 50  0000 L CNN
+F 1 "100n" H 4925 7500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 7450 30  0001 C CNN
+F 3 "" H 4900 7600 60  0000 C CNN
+	1    4900 7600
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C3
+U 1 1 5DB39337
+P 4900 7300
+F 0 "C3" H 4925 7400 50  0000 L CNN
+F 1 "100n" H 4925 7200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 7150 30  0001 C CNN
+F 3 "" H 4900 7300 60  0000 C CNN
+	1    4900 7300
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U6
+U 3 1 5DB3932F
+P 5250 7450
+F 0 "U6" H 5250 7650 50  0000 L CNN
+F 1 "NJM4580E" H 5250 7250 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 7450 50  0001 C CNN
+F 3 "" H 5250 7450 50  0001 C CNN
+	3    5250 7450
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C26
+U 1 1 5DB2091D
+P 7250 6750
+F 0 "C26" H 7275 6850 50  0000 L CNN
+F 1 "ECHU1C822_8.2nF" H 7275 6650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7288 6600 50  0001 C CNN
+F 3 "" H 7250 6750 50  0001 C CNN
+	1    7250 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R53
+U 1 1 5DB208F1
+P 6050 5800
+F 0 "R53" H 6120 5846 50  0000 L CNN
+F 1 "3k 0.1%" H 6120 5754 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5980 5800 50  0001 C CNN
+F 3 "" H 6050 5800 50  0000 C CNN
+	1    6050 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R57
+U 1 1 5DB208D8
+P 6550 7050
+F 0 "R57" H 6620 7096 50  0000 L CNN
+F 1 "3k57 0.1%" H 6620 7004 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6480 7050 50  0001 C CNN
+F 3 "" H 6550 7050 50  0000 C CNN
+	1    6550 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C16
+U 1 1 5DB208D2
+P 6550 6750
+F 0 "C16" H 6575 6850 50  0000 L CNN
+F 1 "ECHU1H471_470pF" H 6575 6650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6588 6600 50  0001 C CNN
+F 3 "" H 6550 6750 50  0001 C CNN
+	1    6550 6750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U6
+U 2 1 5DB208C6
+P 6500 7450
+F 0 "U6" H 6500 7650 50  0000 L CNN
+F 1 "NJM4580E" H 6500 7250 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6500 7450 50  0001 C CNN
+F 3 "" H 6500 7450 50  0001 C CNN
+	2    6500 7450
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R58
+U 1 1 5DB208AD
+P 6650 5500
+F 0 "R58" H 6720 5546 50  0000 L CNN
+F 1 "3k57 0.1%" H 6720 5454 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 5500 50  0001 C CNN
+F 3 "" H 6650 5500 50  0000 C CNN
+	1    6650 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U6
+U 1 1 5DB2089B
+P 6600 5900
+F 0 "U6" H 6600 6100 50  0000 L CNN
+F 1 "NJM4580E" H 6600 5700 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6600 5900 50  0001 C CNN
+F 3 "" H 6600 5900 50  0001 C CNN
+	1    6600 5900
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C2
+U 1 1 5DC15C35
+P 3400 7050
+F 0 "C2" H 3425 7150 50  0000 L CNN
+F 1 "ECHU1C822_8.2nF" H 3425 6950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3438 6900 50  0001 C CNN
+F 3 "" H 3400 7050 50  0001 C CNN
+	1    3400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R6
+U 1 1 5B4FB584
+P 2100 7650
+F 0 "R6" H 2170 7696 50  0000 L CNN
+F 1 "3k57 0.1%" H 2170 7604 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2030 7650 50  0001 C CNN
+F 3 "" H 2100 7650 50  0000 C CNN
+	1    2100 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R12
+U 1 1 5AFCE69D
+P 2700 7350
+F 0 "R12" H 2770 7396 50  0000 L CNN
+F 1 "3k57 0.1%" H 2770 7304 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 7350 50  0001 C CNN
+F 3 "" H 2700 7350 50  0000 C CNN
+	1    2700 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C9
+U 1 1 5AFCE697
+P 2700 7050
+F 0 "C9" H 2725 7150 50  0000 L CNN
+F 1 "ECHU1H471_470pF" H 2600 6700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2738 6900 50  0001 C CNN
+F 3 "" H 2700 7050 50  0001 C CNN
+	1    2700 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U1
+U 2 1 5AFCE685
+P 2650 7750
+F 0 "U1" H 2650 7950 50  0000 L CNN
+F 1 "NJM4580E" H 2650 7550 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2650 7750 50  0001 C CNN
+F 3 "" H 2650 7750 50  0001 C CNN
+	2    2650 7750
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C13
+U 1 1 5AFCCCA1
+P 1100 7350
+F 0 "C13" H 1125 7450 50  0000 L CNN
+F 1 "100n" H 1125 7250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1138 7200 30  0001 C CNN
+F 3 "" H 1100 7350 60  0000 C CNN
+	1    1100 7350
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C12
+U 1 1 5AFCCC9B
+P 1100 7050
+F 0 "C12" H 1125 7150 50  0000 L CNN
+F 1 "100n" H 1125 6950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1138 6900 30  0001 C CNN
+F 3 "" H 1100 7050 60  0000 C CNN
+	1    1100 7050
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U1
+U 3 1 5AFCC3EF
+P 1450 7200
+F 0 "U1" H 1450 7400 50  0000 L CNN
+F 1 "NJM4580E" H 1450 7000 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1450 7200 50  0001 C CNN
+F 3 "" H 1450 7200 50  0001 C CNN
+	3    1450 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C10
+U 1 1 5AFC2315
+P 2800 5500
+F 0 "C10" H 2825 5600 50  0000 L CNN
+F 1 "ECHU1H471_470pF" H 2825 5400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2838 5350 50  0001 C CNN
+F 3 "" H 2800 5500 50  0001 C CNN
+	1    2800 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U1
+U 1 1 5AFC2303
+P 2750 6200
+F 0 "U1" H 2750 6400 50  0000 L CNN
+F 1 "NJM4580E" H 2750 6000 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2750 6200 50  0001 C CNN
+F 3 "" H 2750 6200 50  0001 C CNN
+	1    2750 6200
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Q_NPN_BEC-Device Q3
+U 1 1 5E64CA1C
+P 2950 2700
+F 0 "Q3" H 3141 2746 50  0000 L CNN
+F 1 "MMBT4401" H 3141 2655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3150 2800 50  0001 C CNN
+F 3 "~" H 2950 2700 50  0001 C CNN
+	1    2950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R5
+U 1 1 5E650404
+P 2250 2500
+F 0 "R5" H 2320 2546 50  0000 L CNN
+F 1 "2k2" H 2320 2454 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 2500 50  0001 C CNN
+F 3 "" H 2250 2500 50  0000 C CNN
+	1    2250 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R14
+U 1 1 5E65269B
+P 2550 2700
+F 0 "R14" H 2620 2746 50  0000 L CNN
+F 1 "100R" H 2620 2654 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 2700 50  0001 C CNN
+F 3 "" H 2550 2700 50  0000 C CNN
+	1    2550 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:CP-Device C39
+U 1 1 5E653043
+P 2000 2850
+F 0 "C39" H 2118 2896 50  0000 L CNN
+F 1 "47u" H 2118 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 2038 2700 50  0001 C CNN
+F 3 "~" H 2000 2850 50  0001 C CNN
+	1    2000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C37
+U 1 1 5E653DB1
+P 1750 2850
+F 0 "C37" H 1775 2950 50  0000 L CNN
+F 1 "100n" H 1775 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 2700 30  0001 C CNN
+F 3 "" H 1750 2850 60  0000 C CNN
+	1    1750 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Q_PNP_BEC-Device Q4
+U 1 1 5E6CE46E
+P 2950 3550
+F 0 "Q4" H 3141 3504 50  0000 L CNN
+F 1 "MMBT4403" H 3141 3595 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3150 3650 50  0001 C CNN
+F 3 "~" H 2950 3550 50  0001 C CNN
+	1    2950 3550
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R59
+U 1 1 5E6CE478
+P 2250 3750
+F 0 "R59" H 2320 3796 50  0000 L CNN
+F 1 "2k2" H 2320 3704 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 3750 50  0001 C CNN
+F 3 "" H 2250 3750 50  0000 C CNN
+	1    2250 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R60
+U 1 1 5E6CE482
+P 2550 3550
+F 0 "R60" H 2620 3596 50  0000 L CNN
+F 1 "100R" H 2620 3504 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 3550 50  0001 C CNN
+F 3 "" H 2550 3550 50  0000 C CNN
+	1    2550 3550
+	0    -1   1    0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:CP-Device C41
+U 1 1 5E6CE48C
+P 2000 3400
+F 0 "C41" H 1882 3446 50  0000 R CNN
+F 1 "47u" H 1882 3355 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 2038 3250 50  0001 C CNN
+F 3 "~" H 2000 3400 50  0001 C CNN
+	1    2000 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C40
+U 1 1 5E6CE496
+P 1750 3400
+F 0 "C40" H 1775 3500 50  0000 L CNN
+F 1 "100n" H 1775 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 3250 30  0001 C CNN
+F 3 "" H 1750 3400 60  0000 C CNN
+	1    1750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:Conn_01x03-Connector_Generic Vmute1
+U 1 1 5DAE3D10
+P 6350 3700
+F 0 "Vmute1" H 6350 3900 50  0000 C CNN
+F 1 "OUT" V 6450 3700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6350 3700 50  0001 C CNN
+F 3 "" H 6350 3700 50  0000 C CNN
+	1    6350 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R2
+U 1 1 5E6EF550
+P 3250 6200
+F 0 "R2" H 3320 6246 50  0000 L CNN
+F 1 "91R" H 3320 6154 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 6200 50  0001 C CNN
+F 3 "" H 3250 6200 50  0000 C CNN
+	1    3250 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R1
+U 1 1 5E71984F
+P 3150 7750
+F 0 "R1" H 3220 7796 50  0000 L CNN
+F 1 "91R" H 3220 7704 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 7750 50  0001 C CNN
+F 3 "" H 3150 7750 50  0000 C CNN
+	1    3150 7750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R3
+U 1 1 5E765635
+P 7100 5900
+F 0 "R3" H 7170 5946 50  0000 L CNN
+F 1 "91R" H 7170 5854 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 5900 50  0001 C CNN
+F 3 "" H 7100 5900 50  0000 C CNN
+	1    7100 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R4
+U 1 1 5E799F8C
+P 7100 7450
+F 0 "R4" H 7170 7496 50  0000 L CNN
+F 1 "91R" H 7170 7404 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 7450 50  0001 C CNN
+F 3 "" H 7100 7450 50  0000 C CNN
+	1    7100 7450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R13
+U 1 1 5AFC231B
+P 2800 5800
+F 0 "R13" H 2870 5846 50  0000 L CNN
+F 1 "3k57 0.1%" H 2870 5754 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 5800 50  0001 C CNN
+F 3 "" H 2800 5800 50  0000 C CNN
+	1    2800 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R8
+U 1 1 5B4F82C0
+P 2200 6100
+F 0 "R8" H 2270 6146 50  0000 L CNN
+F 1 "3k 0.1%" H 2270 6054 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 6100 50  0001 C CNN
+F 3 "" H 2200 6100 50  0000 C CNN
+	1    2200 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L av2-8:AV2-8.4-10 U5
+U 1 1 5E9B2F6C
+P 4800 5700
+F 0 "U5" V 4803 5622 60  0000 R CNN
+F 1 "AV2-8.4-10" V 4697 5622 60  0000 R CNN
+F 2 "AV2-8:AV2-8.4-10" H 4800 5700 60  0001 C CNN
+F 3 "" H 4800 5700 60  0001 C CNN
+	1    4800 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L av2-8:AV2-8.4-10 U4
+U 1 1 5E9C2781
+P 10500 3500
+F 0 "U4" V 10503 3422 60  0000 R CNN
+F 1 "AV2-8.4-10" V 10397 3422 60  0000 R CNN
+F 2 "AV2-8:AV2-8.4-10" H 10500 3500 60  0001 C CNN
+F 3 "" H 10500 3500 60  0001 C CNN
+	1    10500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C25
+U 1 1 5DB208A7
+P 6650 5200
+F 0 "C25" H 6675 5300 50  0000 L CNN
+F 1 "ECHU1H471_470pF" H 6675 5100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6688 5050 50  0001 C CNN
+F 3 "" H 6650 5200 50  0001 C CNN
+	1    6650 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R51
+U 1 1 5DB20905
+P 5950 7350
+F 0 "R51" H 6020 7396 50  0000 L CNN
+F 1 "3k57 0.1%" H 6020 7304 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 7350 50  0001 C CNN
+F 3 "" H 5950 7350 50  0000 C CNN
+	1    5950 7350
+	0    -1   -1   0   
+$EndComp
+Text Label 2350 6300 2    60   ~ 0
+SGND_BO
+Wire Wire Line
+	3050 6200 3050 6650
+Wire Wire Line
+	3050 6650 1950 6650
+Wire Wire Line
+	1950 6650 1950 7650
+Text Label 4250 5600 2    60   ~ 0
+SGND_BO
+Text Label 4250 6000 2    60   ~ 0
+SGND_BO
+Text Label 6100 7550 2    60   ~ 0
+SGND_BO
+Wire Wire Line
+	5800 7350 5800 6300
+Wire Wire Line
+	5800 6300 6900 6300
+Wire Wire Line
+	6900 6300 6900 5900
+Text Label 9950 3400 2    60   ~ 0
+SGND_BO
+Text Label 9950 3800 2    60   ~ 0
+SGND_BO
+Connection ~ 9500 5900
+Connection ~ 8900 5800
+Connection ~ 8900 6000
+Text Label 9100 3200 1    60   ~ 0
+OUTRe+
+Text Label 9000 3950 3    60   ~ 0
+OUTR+
+Text Label 8900 5500 2    60   ~ 0
+OUTLoo-
+Text Label 8900 6200 2    60   ~ 0
+OUTLoo+
+Text Label 9050 7550 2    60   ~ 0
+OUTRoo-
+Text Label 9050 8350 2    60   ~ 0
+OUTRoo+
+Text Label 12650 7450 0    60   ~ 0
+Vcc
+Text Label 12650 6850 0    60   ~ 0
+Vee
+Text Label 12400 6300 2    60   ~ 0
+AGND_BO
+Wire Wire Line
+	12400 6100 12500 6100
+Wire Wire Line
+	12500 6100 12500 5800
+Wire Wire Line
+	12500 5800 12700 5800
+Wire Wire Line
+	12700 5800 12700 5500
+Wire Wire Line
+	13000 5500 13000 5800
+Wire Wire Line
+	13000 5800 13100 5800
+Wire Wire Line
+	13100 5800 13100 6200
+Wire Wire Line
+	13100 6200 13250 6200
+Wire Wire Line
+	12400 6300 12500 6300
+Wire Wire Line
+	12400 6850 12650 6850
+Wire Wire Line
+	12400 7450 12650 7450
+Text Label 12400 7150 2    60   ~ 0
+AGND_BO
+Text Label 13850 8150 0    60   ~ 0
+OUTL+
+Text Label 12700 8250 2    60   ~ 0
+AGND_BO
+Wire Wire Line
+	12700 8050 12800 8050
+Wire Wire Line
+	12800 8050 12800 7750
+Wire Wire Line
+	12800 7750 13000 7750
+Wire Wire Line
+	13000 7750 13000 7450
+Wire Wire Line
+	13300 7450 13300 7750
+Wire Wire Line
+	13300 7750 13400 7750
+Wire Wire Line
+	13400 7750 13400 8150
+Wire Wire Line
+	13400 8150 13550 8150
+Wire Wire Line
+	12700 8250 12800 8250
+Text Label 10500 6050 2    60   ~ 0
+OUTRp1
+Text Label 10800 8000 2    60   ~ 0
+OUTLp1
+Text Label 13650 6200 0    60   ~ 0
+OUTR+
+Connection ~ 12700 5800
+Connection ~ 13000 5800
+$Comp
+L PPI-ISO-rescue:R-Device R7
+U 1 1 5EC95BC6
+P 12250 6100
+F 0 "R7" H 12320 6146 50  0000 L CNN
+F 1 "7k5 0.1%" H 12320 6054 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12180 6100 50  0001 C CNN
+F 3 "" H 12250 6100 50  0000 C CNN
+	1    12250 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R9
+U 1 1 5EC95BD0
+P 12850 5800
+F 0 "R9" H 12920 5846 50  0000 L CNN
+F 1 "7k5 0.1%" H 12920 5754 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12780 5800 50  0001 C CNN
+F 3 "" H 12850 5800 50  0000 C CNN
+	1    12850 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C1
+U 1 1 5EC95BDA
+P 12850 5500
+F 0 "C1" H 12875 5600 50  0000 L CNN
+F 1 "ECHU1H221_220pF" H 12400 5100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 12888 5350 50  0001 C CNN
+F 3 "" H 12850 5500 50  0001 C CNN
+	1    12850 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R10
+U 1 1 5EC95C02
+P 13400 6200
+F 0 "R10" H 13470 6246 50  0000 L CNN
+F 1 "91R" H 13470 6154 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13330 6200 50  0001 C CNN
+F 3 "" H 13400 6200 50  0000 C CNN
+	1    13400 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C5
+U 1 1 5EC95C0C
+P 12400 7000
+F 0 "C5" H 12425 7100 50  0000 L CNN
+F 1 "100n" H 12425 6900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12438 6850 30  0001 C CNN
+F 3 "" H 12400 7000 60  0000 C CNN
+	1    12400 7000
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C6
+U 1 1 5EC95C16
+P 12400 7300
+F 0 "C6" H 12425 7400 50  0000 L CNN
+F 1 "100n" H 12425 7200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12438 7150 30  0001 C CNN
+F 3 "" H 12400 7300 60  0000 C CNN
+	1    12400 7300
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U2
+U 1 1 5EC95C20
+P 9350 7950
+F 0 "U2" H 9350 8150 50  0000 L CNN
+F 1 "NJM4580E" H 9350 7750 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9350 7950 50  0001 C CNN
+F 3 "" H 9350 7950 50  0001 C CNN
+	1    9350 7950
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R11
+U 1 1 5EC95C2A
+P 12550 8050
+F 0 "R11" H 12620 8096 50  0000 L CNN
+F 1 "7k5 0.1%" H 12620 8004 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12480 8050 50  0001 C CNN
+F 3 "" H 12550 8050 50  0000 C CNN
+	1    12550 8050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R15
+U 1 1 5EC95C34
+P 13150 7750
+F 0 "R15" H 13220 7796 50  0000 L CNN
+F 1 "7k5 0.1%" H 13220 7704 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13080 7750 50  0001 C CNN
+F 3 "" H 13150 7750 50  0000 C CNN
+	1    13150 7750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:C-Device C7
+U 1 1 5EC95C3E
+P 13150 7450
+F 0 "C7" H 13175 7550 50  0000 L CNN
+F 1 "ECHU1H221_220pF" H 13175 7350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 13188 7300 50  0001 C CNN
+F 3 "" H 13150 7450 50  0001 C CNN
+	1    13150 7450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R16
+U 1 1 5EC95C66
+P 13700 8150
+F 0 "R16" H 13770 8196 50  0000 L CNN
+F 1 "91R" H 13770 8104 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13630 8150 50  0001 C CNN
+F 3 "" H 13700 8150 50  0000 C CNN
+	1    13700 8150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U2
+U 2 1 5EC95C70
+P 13100 8150
+F 0 "U2" H 13100 8350 50  0000 L CNN
+F 1 "NJM4580E" H 13100 7950 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13100 8150 50  0001 C CNN
+F 3 "" H 13100 8150 50  0001 C CNN
+	2    13100 8150
+	1    0    0    1   
+$EndComp
+Connection ~ 13100 6200
+Connection ~ 12500 6100
+Text Label 12500 5800 2    60   ~ 0
+OUTLop2
+Text Label 12800 7750 2    60   ~ 0
+OUTRop2
+Connection ~ 12800 8050
+Connection ~ 13000 7750
+Connection ~ 13300 7750
+Connection ~ 13400 8150
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U2
+U 3 1 5EC95BBC
+P 12750 7150
+F 0 "U2" H 12750 7350 50  0000 L CNN
+F 1 "NJM4580E" H 12750 6950 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12750 7150 50  0001 C CNN
+F 3 "" H 12750 7150 50  0001 C CNN
+	3    12750 7150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7650 2750 8050 2750
+Connection ~ 9050 7850
+Connection ~ 9050 8050
+Connection ~ 9150 8350
+Connection ~ 9250 7550
+Connection ~ 9550 7550
+Connection ~ 9650 7950
+$Comp
+L PPI-ISO-rescue:C-Device C8
+U 1 1 5ED35980
+P 10800 6200
+F 0 "C8" H 10825 6300 50  0000 L CNN
+F 1 "ECHU1H221_220pF" H 10350 5800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10838 6050 50  0001 C CNN
+F 3 "" H 10800 6200 50  0001 C CNN
+	1    10800 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R19
+U 1 1 5ED3A1CD
+P 10650 6050
+F 0 "R19" H 10720 6096 50  0000 L CNN
+F 1 "7k5 0.1%" H 10720 6004 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10580 6050 50  0001 C CNN
+F 3 "" H 10650 6050 50  0000 C CNN
+	1    10650 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10800 6100 10800 6050
+Wire Wire Line
+	10800 6100 12100 6100
+Connection ~ 10800 6050
+$Comp
+L PPI-ISO-rescue:C-Device C11
+U 1 1 5ED46A4C
+P 11100 8150
+F 0 "C11" H 11125 8250 50  0000 L CNN
+F 1 "ECHU1H221_220pF" H 10650 7750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11138 8000 50  0001 C CNN
+F 3 "" H 11100 8150 50  0001 C CNN
+	1    11100 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PPI-ISO-rescue:R-Device R21
+U 1 1 5ED46A56
+P 10950 8000
+F 0 "R21" H 11020 8046 50  0000 L CNN
+F 1 "7k5 0.1%" H 11020 7954 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10880 8000 50  0001 C CNN
+F 3 "" H 10950 8000 50  0000 C CNN
+	1    10950 8000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11100 8050 11100 8000
+Wire Wire Line
+	11100 8050 12400 8050
+Connection ~ 11100 8000
+Text Label 10800 6350 0    60   ~ 0
+AGND_BO
+Text Label 11100 8300 0    60   ~ 0
+AGND_BO
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U3
+U 2 1 5ED18BBD
+P 12800 6200
+F 0 "U3" H 12800 6400 50  0000 L CNN
+F 1 "NJM4580E" H 12800 6000 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12800 6200 50  0001 C CNN
+F 3 "" H 12800 6200 50  0001 C CNN
+	2    12800 6200
+	1    0    0    1   
+$EndComp
+$Comp
+L PPI-ISO-rescue:Opamp_Dual_Generic-Device U3
+U 1 1 5AFD1D8F
+P 9200 5900
+F 0 "U3" H 9200 6100 50  0000 L CNN
+F 1 "NJM4580E" H 9200 5700 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9200 5900 50  0001 C CNN
+F 3 "" H 9200 5900 50  0001 C CNN
+	1    9200 5900
+	1    0    0    1   
+$EndComp
+Text Notes 10100 5300 0    50   ~ 0
+Switch polarity of OUTLo- and OUTLo+ and same for right side
+Wire Wire Line
+	13650 6200 13550 6200
+$EndSCHEMATC

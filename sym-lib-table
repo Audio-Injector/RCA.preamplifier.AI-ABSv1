@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "PPI-ISO-rescue")(type "Legacy")(uri "${KIPRJMOD}/AI.ABS.v1.single.ended.preamplifier-rescue.lib")(options "")(descr ""))
+  (lib (name "av2-8")(type "Legacy")(uri "${KIPRJMOD}/lib/av2-8.lib")(options "")(descr ""))
+  (lib (name "TPS7A49")(type "Legacy")(uri "${KIPRJMOD}/lib/TPS7A49.lib")(options "")(descr ""))
+)
