@@ -7,3 +7,5 @@ https://github.com/Audio-Injector/AudioInjector-Analogue-Breakout-Standard
 https://www.audioinjector.net/rca-preamp
 
 https://shop.audioinjector.net/detail/Sound_Cards/RCA+preamplifier
+
+Check the balanced (XLR) preamplifier here : https://github.com/Audio-Injector/XLR.preamplifier.AI-ABSv1
